@@ -74,6 +74,7 @@ function displayWeather({
   wind: { speed: speedOfWind },
   sys: { sunrise, sunset }
 }) {
+  ///new commit
   const sunriseTime = new Date(sunrise * 1000);
   const sunsetTime = new Date(sunset * 1000);
   // console.log(sunriseTime);
